@@ -8,12 +8,13 @@ public class MyFirstJavaProgram {
 		// START HERE
 Robot mike =new Robot();
 mike.sparkle();
+mike.setSpeed(100);
 	for (int i = 0; i < 4; i++) {
 	mike.penDown();
 	mike.setPenColor(102, 238, 225);
 	mike.move(100);
 	mike.turn(90);
-	mike.
+	mike.setPenColor(136, 0, 0);
 	mike.move(100);
 	mike.turn(90);
 	mike.setPenColor(102, 238, 225);
